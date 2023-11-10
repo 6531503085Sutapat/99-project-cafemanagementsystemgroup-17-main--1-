@@ -1,0 +1,87 @@
+/* Add this to your existing CSS file or create a new one
+.pink-background {
+    background-color: rgb(247, 200, 208);
+} */
+
+.bi-cart3 {
+    color: black;
+}
+.product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+/* .quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+} */
+
+.quantity-button:hover {
+    background-color: #0056b3;
+}
+
+.quantity-display {
+    font-size: 20px;
+}
+
+.add-to-cart-button {
+    width: 100px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #218838;
+}
+.navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* You can adjust the font size as needed for responsiveness */
+}
+
+.navbar-nav {
+    font-size: 1rem; /* You can adjust the font size as needed for responsiveness */
+}
+/* .navbar-pink {
+    background-color: rgb(238, 218, 221);
+} */
+@media (max-width: 768px) {
+    /* Hide the cart button on screens with a maximum width of 768px (typical mobile devices) */
+    .cart-button {
+        display: none;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
